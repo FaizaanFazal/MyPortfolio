@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+h3{
+    padding:0;
+    margin:0;
+    
+}
+.icon{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    
+}
+
+.icon a{
+    text-decoration: none;
+    color: rgb(0, 3, 177);
+    box-shadow: 0 18px 7px -8px black;
+    /* box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.7); */
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+
+
+    
+}
+.flex{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+    padding-top: 40px;
+    
+}
+.mt-3{
+    margin-bottom: 50px;
+}
+.col-sm-3{
+    max-width: 30%;
+    margin-left: 40px;
+    margin-right: 40px;
+
+   
+}
+.outerbox{
+    width: 150px;
+    height: 150px;
+    background-color: #f0ebeb;
+    color: rgb(255, 255, 255);
+    position: relative;
+    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
+}
+.innerbox{
+    width: 166px;
+    height: 166px;
+    background-color: transparent;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+    top:16px;
+    left:16px;
+   
+}
+.flexc{
+    display: flex;
+}
+.whiteL{
+    width: 16px;
+    background-color: rgb(0, 3, 177);
+    height:16px;
+}
+.whiteT{
+    width: 118px;
+    height: 16px;
+    background-color: rgb(0, 3, 177);
+}
+.pinkR{
+    width: 32px;
+    background-color: #f0ebeb;
+    height:16px;
+
+}
+.whiteRL{
+    width: 16px;
+    background-color: rgb(0, 3, 177);
+    border: 0px;
+    height:118px;
+}
+.content{
+    width: 134px;
+    background-color: transparent;
+    color: rgb(0, 3, 177);
+    height:118px;
+}
+.pinkRL{
+    width: 16px;
+    background-color: #f0ebeb;
+    height:118px;
+}
+.outerR{
+    width: 16px;
+    background-color: #f0ebeb;
+    height:16px;
+}
+.outerB{
+    width: 134px;
+    height: 16px;
+    background-color: transparent;
+}
+
+
+.fpink{
+    width: 166px;
+    background-color: #f0ebeb;
+    height:16px;
+
+}

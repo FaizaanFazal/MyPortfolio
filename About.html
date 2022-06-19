@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_js/index.css">
+    <link rel="stylesheet" href="css_js/About.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About Me</title>
+</head>
+<body>
+    <div class=" container">
+        <!-- nav bar -->
+        <div id="nav-placeholder"> </div>
+            <div class="px-5 subcont">
+                <div class="heading">
+                   About Me
+                </div>
+            <!-- timeline -->
+            <div class="timeline">
+                <div class="history-tl-container">
+                    <ul class="tl">
+                        <li class="tl-item" ng-repeat="item in retailer_history">
+                            <div class="topic">Education</div>
+                           
+                                <div class="item-title">BS Computer Science</div>
+                                <div class="item-detail">
+                                    Studying in Air University Islamabad, Passing out in 2023
+                                </div>
+                            
+                        </li>
+                        <li class="tl-item" ng-repeat="item in retailer_history">
+                            <div class="topic">Interest</div>
+                            <div class="item-title">Web/Desktop Development</div>
+                            <div class="item-detail">MERN Stack and ASP.NET Framework</div>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+
+            <!-- skills -->
+
+                <div class="greet">
+                    Skills
+                </div>
+                <div class="skills">
+                    <div class="item">
+                    <article class="badge orange"><div class="rounded"><i class="fa-brands fa-html5 fa-3x fa-align-center "></i></div> </article>
+                <div class="center">HTML5</div>
+                </div>
+                <div class="item">
+                    <article class="badge blue"><div class="rounded"><i class="fa-brands fa-css3 fa-3x fa-align-center "></i></div> </article>
+                <div>CSS</div>
+                </div>
+                <div class="item">
+                    <article class="badge golden"><div class="rounded"><i class="fa-brands fa-bootstrap fa-3x fa-align-center "></i></div> </article>
+                <div>BootStrap</div>
+                </div>
+    
+                <div class="item">
+                    <article class="badge orange"><div class="rounded"><i class="fa-brands fa-js fa-3x fa-align-center "></i></div> </article>
+                <div>Javascript</div>
+                </div>
+                <div class="item">
+                    <article class="badge blue"><div class="rounded"><i class="fa-brands fa-python fa-3x fa-align-center "></i></div> </article>
+                <div>Python</div>
+                </div>
+                <div class="item">
+                    <article class="badge golden"><div class="rounded"><i class="fa-brands fa-code fa-3x fa-align-center "></i></div> </article>
+                <div>C#</div>
+                </div>
+                <div class="item">
+                    <article class="badge orange"><div class="rounded"><i class="fa-brands fa-code fa-3x fa-align-center "></i></div> </article>
+                <div>ASP.NET</div>
+                </div>
+                <div class="item">
+                    <article class="badge blue"><div class="rounded"><i class="fa-brands fa-react fa-3x fa-align-center "></i></div> </article>
+                <div>React.js</div>
+                </div>
+                <div class="item">
+                    <article class="badge golden"><div class="rounded"><i class="fa-thin fa-database fa-3x fa-align-center "></i></div> </article>
+                <div>Sql</div>
+                </div>
+                <div class="item">
+                    <article class="badge orange"><div class="rounded"><i class="fa-thin fa-database fa-3x fa-align-center "></i></div> </article>
+                <div>MongoDB</div>
+                </div>
+
+                </div>
+                
+            
+            </div>
+        <!-- Home-->
+    
+    
+    
+    </div>
+        <script>
+            $(function(){
+              $("#nav-placeholder").load("nav.html");
+            });
+            </script>
+    
+</body>
+</html>

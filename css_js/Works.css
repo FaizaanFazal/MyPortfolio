@@ -1,0 +1,71 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.col{
+  
+  position: relative;
+  width: 50%;
+ 
+  padding: 0 4px;
+  
+}
+.w-100{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-left: 10px solid rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(31, 29, 29);
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(31, 29, 29, 0.767);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .w-100:hover .overlay {
+    height: 100%;
+  }
+  .text {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .col {
+      -ms-flex: 50%;
+      flex: 50%;
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col {
+      flex-wrap: wrap;
+      height: auto;
+      min-width: 100%;
+      flex-direction: column;
+    }
+  }
